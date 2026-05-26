@@ -1,0 +1,169 @@
+[2026-05-25 01:20:21] [INFO] Scanned file: testrepo/b.txt
+[2026-05-25 01:20:21] [INFO] Scanned file: testrepo/testie/c.txt
+[2026-05-25 01:20:21] [INFO] Scanned file: testrepo/a.txt
+[2026-05-25 14:33:21] [INFO] Scanned file: testrepo/b.txt
+[2026-05-25 14:33:21] [INFO] Scanned file: testrepo/bad.sh
+[2026-05-25 14:33:21] [WARN] World writable permissions detected in testrepo/bad.sh
+[2026-05-25 14:33:21] [FIX] Removed world write permission from testrepo/bad.sh
+[2026-05-25 14:33:21] [WARN] Dangerous pattern:rm -rf / found in testrepo/bad.sh
+[2026-05-25 14:33:21] [WARN] Dangerous pattern:shutdown found in testrepo/bad.sh
+[2026-05-25 14:33:21] [INFO] Scanned file: testrepo/a.txt
+[2026-05-25 14:36:52] [INFO] Scanned file: testrepo/b.txt
+[2026-05-25 14:36:52] [INFO] Scanned file: testrepo/bad.sh
+[2026-05-25 14:36:52] [WARN] Dangerous pattern:rm -rf / found in testrepo/bad.sh
+[2026-05-25 14:36:52] [WARN] Dangerous pattern:shutdown found in testrepo/bad.sh
+[2026-05-25 14:36:52] [INFO] Scanned file: testrepo/testie/c.txt
+[2026-05-25 14:36:52] [INFO] Scanned file: testrepo/a.txt
+[2026-05-25 14:42:45] [INFO] Scanned file: testrepo/b.txt
+[2026-05-25 14:42:45] [INFO] Scanned file: testrepo/bad.sh
+[2026-05-25 14:42:45] [WARN] World writable permissions detected in testrepo/bad.sh
+[2026-05-25 14:42:48] [FIX] Removed world write permission from testrepo/bad.sh
+[2026-05-25 14:42:48] [WARN] Dangerous pattern:rm -rf / found in testrepo/bad.sh
+[2026-05-25 14:42:48] [WARN] Dangerous pattern:shutdown found in testrepo/bad.sh
+[2026-05-25 14:42:48] [INFO] Scanned file: testrepo/testie/c.txt
+[2026-05-25 14:42:48] [INFO] Scanned file: testrepo/a.txt
+[2026-05-25 15:16:09] [INFO] Scanned file: testrepo/b.txt
+[2026-05-25 15:16:09] [INFO] Scanned file: testrepo/bad.sh
+[2026-05-25 15:16:09] [WARN] Dangerous pattern:rm -rf / found in testrepo/bad.sh
+[2026-05-25 15:16:09] [WARN] Dangerous pattern:shutdown found in testrepo/bad.sh
+[2026-05-25 15:16:09] [WARN] Dangerous pattern:curl.+\|.+sh found in testrepo/bad.sh
+[2026-05-25 15:16:09] [INFO] Scanned file: testrepo/testie/c.txt
+[2026-05-25 15:16:09] [INFO] Scanned file: testrepo/a.txt
+[2026-05-25 19:40:22] [INFO] Scanned file: testrepo/b.txt
+[2026-05-25 19:40:22] [INFO] Scanned file: testrepo/bad.sh
+[2026-05-25 19:40:22] [WARN] Dangerous pattern:rm -rf / found in testrepo/bad.sh
+[2026-05-25 19:40:22] [WARN] Dangerous pattern:mkfs found in testrepo/bad.sh
+[2026-05-25 19:40:22] [WARN] Dangerous pattern:shutdown found in testrepo/bad.sh
+[2026-05-25 19:40:22] [WARN] Dangerous pattern:reboot found in testrepo/bad.sh
+[2026-05-25 19:40:22] [WARN] Dangerous pattern:curl.+\|.+sh found in testrepo/bad.sh
+[2026-05-25 19:40:22] [WARN] Dangerous pattern:curl.+\|.+bash found in testrepo/bad.sh
+[2026-05-25 19:40:22] [WARN] Dangerous pattern:wget.+\|.+sh found in testrepo/bad.sh
+[2026-05-25 19:40:22] [WARN] Dangerous pattern:/dev/tcp/ found in testrepo/bad.sh
+[2026-05-25 19:40:22] [INFO] Scanned file: testrepo/testie/c.txt
+[2026-05-25 19:40:22] [INFO] Scanned file: testrepo/.env
+[2026-05-25 19:40:22] [SKIP] Rejected sensitive info in testrepo/.env:PASSWORD=password2007
+[2026-05-25 19:40:22] [SKIP] Rejected sensitive info in testrepo/.env:TOKEN=abc123
+[2026-05-25 19:40:22] [INFO] For testrepo/.env, valid:9 and invalid:2
+[2026-05-25 19:40:22] [INFO] Scanned file: testrepo/a.txt
+[2026-05-25 19:44:59] [INFO] Scanned file: testrepo/b.txt
+[2026-05-25 19:44:59] [INFO] Scanned file: testrepo/bad.sh
+[2026-05-25 19:44:59] [WARN] Dangerous pattern:rm -rf / found in testrepo/bad.sh
+[2026-05-25 19:44:59] [WARN] Dangerous pattern:mkfs found in testrepo/bad.sh
+[2026-05-25 19:44:59] [WARN] Dangerous pattern:shutdown found in testrepo/bad.sh
+[2026-05-25 19:44:59] [WARN] Dangerous pattern:reboot found in testrepo/bad.sh
+[2026-05-25 19:44:59] [WARN] Dangerous pattern:curl.+\|.+sh found in testrepo/bad.sh
+[2026-05-25 19:44:59] [WARN] Dangerous pattern:curl.+\|.+bash found in testrepo/bad.sh
+[2026-05-25 19:44:59] [WARN] Dangerous pattern:wget.+\|.+sh found in testrepo/bad.sh
+[2026-05-25 19:44:59] [WARN] Dangerous pattern:/dev/tcp/ found in testrepo/bad.sh
+[2026-05-25 19:44:59] [INFO] Scanned file: testrepo/testie/c.txt
+[2026-05-25 19:44:59] [INFO] Scanned file: testrepo/.env.sanitized
+[2026-05-25 19:44:59] [SKIP] Rejected line in testrepo/.env.sanitized: 
+[2026-05-25 19:44:59] [SKIP] Rejected line in testrepo/.env.sanitized: KEY = value
+[2026-05-25 19:44:59] [SKIP] Rejected line in testrepo/.env.sanitized: SERVER-NAME=x
+[2026-05-25 19:44:59] [SKIP] Rejected line in testrepo/.env.sanitized: USER="admin"
+[2026-05-25 19:44:59] [SKIP] Rejected line in testrepo/.env.sanitized: export PATH=$PATH:/tmp
+[2026-05-25 19:44:59] [SKIP] Rejected line in testrepo/.env.sanitized: 
+[2026-05-25 19:44:59] [INFO] For testrepo/.env.sanitized, valid:3 and invalid:6
+[2026-05-25 19:44:59] [INFO] Scanned file: testrepo/.env
+[2026-05-25 19:44:59] [SKIP] Rejected line in testrepo/.env: 
+[2026-05-25 19:44:59] [SKIP] Rejected line in testrepo/.env: KEY = value
+[2026-05-25 19:44:59] [SKIP] Rejected line in testrepo/.env: SERVER-NAME=x
+[2026-05-25 19:44:59] [SKIP] Rejected line in testrepo/.env: USER="admin"
+[2026-05-25 19:44:59] [SKIP] Rejected line in testrepo/.env: export PATH=$PATH:/tmp
+[2026-05-25 19:44:59] [SKIP] Rejected line in testrepo/.env: 
+[2026-05-25 19:44:59] [SKIP] Rejected sensitive info in testrepo/.env:PASSWORD=password2007
+[2026-05-25 19:44:59] [SKIP] Rejected sensitive info in testrepo/.env:TOKEN=abc123
+[2026-05-25 19:44:59] [INFO] For testrepo/.env, valid:3 and invalid:8
+[2026-05-25 19:44:59] [INFO] Scanned file: testrepo/a.txt
+[2026-05-25 19:47:57] [INFO] Scanned file: testrepo/b.txt
+[2026-05-25 19:47:57] [INFO] Scanned file: testrepo/bad.sh
+[2026-05-25 19:47:57] [WARN] Dangerous pattern:rm -rf / found in testrepo/bad.sh
+[2026-05-25 19:47:57] [WARN] Dangerous pattern:mkfs found in testrepo/bad.sh
+[2026-05-25 19:47:57] [WARN] Dangerous pattern:shutdown found in testrepo/bad.sh
+[2026-05-25 19:47:57] [WARN] Dangerous pattern:reboot found in testrepo/bad.sh
+[2026-05-25 19:47:57] [WARN] Dangerous pattern:curl.+\|.+sh found in testrepo/bad.sh
+[2026-05-25 19:47:57] [WARN] Dangerous pattern:curl.+\|.+bash found in testrepo/bad.sh
+[2026-05-25 19:47:57] [WARN] Dangerous pattern:wget.+\|.+sh found in testrepo/bad.sh
+[2026-05-25 19:47:57] [WARN] Dangerous pattern:/dev/tcp/ found in testrepo/bad.sh
+[2026-05-25 19:47:57] [INFO] Scanned file: testrepo/testie/c.txt
+[2026-05-25 19:47:57] [INFO] Scanned file: testrepo/.env.sanitized.sanitized
+[2026-05-25 19:47:57] [INFO] Scanned file: testrepo/.env.sanitized
+[2026-05-25 19:47:57] [INFO] Scanned file: testrepo/.env
+[2026-05-25 19:47:57] [SKIP] Rejected line in testrepo/.env: 
+[2026-05-25 19:47:57] [SKIP] Rejected line in testrepo/.env: KEY = value
+[2026-05-25 19:47:57] [SKIP] Rejected line in testrepo/.env: SERVER-NAME=x
+[2026-05-25 19:47:57] [SKIP] Rejected line in testrepo/.env: USER="admin"
+[2026-05-25 19:47:57] [SKIP] Rejected line in testrepo/.env: export PATH=$PATH:/tmp
+[2026-05-25 19:47:57] [SKIP] Rejected line in testrepo/.env: 
+[2026-05-25 19:47:57] [SKIP] Rejected sensitive info in testrepo/.env:PASSWORD=password2007
+[2026-05-25 19:47:57] [SKIP] Rejected sensitive info in testrepo/.env:TOKEN=abc123
+[2026-05-25 19:47:57] [INFO] For testrepo/.env, valid:3 and invalid:8
+[2026-05-25 19:47:57] [INFO] Scanned file: testrepo/a.txt
+[2026-05-26 01:57:31] [INFO] Scanned file: testrepo/b.txt
+[2026-05-26 01:57:31] [INFO] Scanned file: testrepo/bad.sh
+[2026-05-26 01:57:31] [WARN] Dangerous pattern:rm -rf / found in testrepo/bad.sh
+[2026-05-26 01:57:31] [WARN] Dangerous pattern:mkfs found in testrepo/bad.sh
+[2026-05-26 01:57:31] [WARN] Dangerous pattern:shutdown found in testrepo/bad.sh
+[2026-05-26 01:57:31] [WARN] Dangerous pattern:reboot found in testrepo/bad.sh
+[2026-05-26 01:57:31] [WARN] Dangerous pattern:curl.+\|.+sh found in testrepo/bad.sh
+[2026-05-26 01:57:31] [WARN] Dangerous pattern:curl.+\|.+bash found in testrepo/bad.sh
+[2026-05-26 01:57:31] [WARN] Dangerous pattern:wget.+\|.+sh found in testrepo/bad.sh
+[2026-05-26 01:57:31] [WARN] Dangerous pattern:/dev/tcp/ found in testrepo/bad.sh
+[2026-05-26 01:57:31] [INFO] Scanned file: testrepo/testie/c.txt
+[2026-05-26 01:57:31] [INFO] Scanned file: testrepo/.env.sanitized.sanitized
+[2026-05-26 01:57:31] [INFO] Scanned file: testrepo/.env.sanitized
+[2026-05-26 01:57:31] [INFO] Scanned file: testrepo/.env
+[2026-05-26 01:57:32] [SKIP] Rejected line in testrepo/.env: 
+[2026-05-26 01:57:32] [SKIP] Rejected line in testrepo/.env: KEY = value
+[2026-05-26 01:57:32] [SKIP] Rejected line in testrepo/.env: SERVER-NAME=x
+[2026-05-26 01:57:32] [SKIP] Rejected line in testrepo/.env: USER="admin"
+[2026-05-26 01:57:32] [SKIP] Rejected line in testrepo/.env: export PATH=$PATH:/tmp
+[2026-05-26 01:57:32] [SKIP] Rejected line in testrepo/.env: 
+[2026-05-26 01:57:32] [SKIP] Rejected sensitive info in testrepo/.env:PASSWORD=password2007
+[2026-05-26 01:57:32] [SKIP] Rejected sensitive info in testrepo/.env:TOKEN=abc123
+[2026-05-26 01:57:32] [INFO] For testrepo/.env, valid:3 and invalid:8
+[2026-05-26 01:57:32] [INFO] Scanned file: testrepo/server.py
+[2026-05-26 01:57:32] [WARN] Possible secret pattern:API_KEY detected in testrepo/server.py
+[2026-05-26 01:57:32] [WARN] Possible secret pattern:TOKEN detected in testrepo/server.py
+[2026-05-26 01:57:32] [WARN] Possible secret pattern:sk-[a-zA-Z0-9]+ detected in testrepo/server.py
+[2026-05-26 01:57:32] [INFO] Scanned file: testrepo/a.txt
+[2026-05-26 13:16:48] [INFO] Scanned file: testrepo/b.txt
+[2026-05-26 13:16:48] [INFO] Scanned file: testrepo/bad.sh
+[2026-05-26 13:16:48] [WARN] Dangerous pattern:rm -rf / found in testrepo/bad.sh
+[2026-05-26 13:16:48] [WARN] Dangerous pattern:mkfs found in testrepo/bad.sh
+[2026-05-26 13:16:48] [WARN] Dangerous pattern:shutdown found in testrepo/bad.sh
+[2026-05-26 13:16:48] [WARN] Dangerous pattern:reboot found in testrepo/bad.sh
+[2026-05-26 13:16:48] [WARN] Dangerous pattern:curl.+\|.+sh found in testrepo/bad.sh
+[2026-05-26 13:16:48] [WARN] Dangerous pattern:curl.+\|.+bash found in testrepo/bad.sh
+[2026-05-26 13:16:48] [WARN] Dangerous pattern:wget.+\|.+sh found in testrepo/bad.sh
+[2026-05-26 13:16:48] [WARN] Dangerous pattern:wget.+\|.+bash found in testrepo/bad.sh
+[2026-05-26 13:16:48] [WARN] Dangerous pattern:/dev/tcp/ found in testrepo/bad.sh
+[2026-05-26 13:16:48] [WARN] Dangerous pattern:dd if= found in testrepo/bad.sh
+[2026-05-26 13:16:48] [WARN] Dangerous pattern:chmod 777 found in testrepo/bad.sh
+[2026-05-26 13:16:48] [WARN] Dangerous pattern:sudo su found in testrepo/bad.sh
+[2026-05-26 13:16:48] [WARN] Dangerous pattern:scp found in testrepo/bad.sh
+[2026-05-26 13:16:48] [INFO] Scanned file: testrepo/testie/c.txt
+[2026-05-26 13:16:48] [INFO] Scanned file: testrepo/testie/b.txt
+[2026-05-26 13:16:48] [INFO] Scanned file: testrepo/testie/server.py
+[2026-05-26 13:16:48] [WARN] Possible secret pattern:API_KEY detected in testrepo/testie/server.py
+[2026-05-26 13:16:48] [WARN] Possible secret pattern:TOKEN detected in testrepo/testie/server.py
+[2026-05-26 13:16:48] [WARN] Possible secret pattern:SECRET detected in testrepo/testie/server.py
+[2026-05-26 13:16:48] [WARN] Possible secret pattern:sk-[a-zA-Z0-9]+ detected in testrepo/testie/server.py
+[2026-05-26 13:16:48] [INFO] Scanned file: testrepo/testie/a.txt
+[2026-05-26 13:16:48] [INFO] Scanned file: testrepo/.env.sanitized.sanitized
+[2026-05-26 13:16:48] [INFO] Scanned file: testrepo/.env.sanitized
+[2026-05-26 13:16:48] [INFO] Scanned file: testrepo/.env
+[2026-05-26 13:16:48] [SKIP] Rejected line in testrepo/.env: 
+[2026-05-26 13:16:48] [SKIP] Rejected line in testrepo/.env: KEY = value
+[2026-05-26 13:16:48] [SKIP] Rejected line in testrepo/.env: SERVER-NAME=x
+[2026-05-26 13:16:48] [SKIP] Rejected line in testrepo/.env: USER="admin"
+[2026-05-26 13:16:48] [SKIP] Rejected line in testrepo/.env: export PATH=$PATH:/tmp
+[2026-05-26 13:16:48] [SKIP] Rejected line in testrepo/.env: 
+[2026-05-26 13:16:48] [SKIP] Rejected sensitive info in testrepo/.env:PASSWORD=password2007
+[2026-05-26 13:16:48] [SKIP] Rejected sensitive info in testrepo/.env:TOKEN=abc123
+[2026-05-26 13:16:48] [INFO] For testrepo/.env, valid:3 and invalid:8
+[2026-05-26 13:16:48] [INFO] Scanned file: testrepo/server.py
+[2026-05-26 13:16:48] [WARN] Possible secret pattern:API_KEY detected in testrepo/server.py
+[2026-05-26 13:16:48] [WARN] Possible secret pattern:TOKEN detected in testrepo/server.py
+[2026-05-26 13:16:48] [WARN] Possible secret pattern:sk-[a-zA-Z0-9]+ detected in testrepo/server.py
+[2026-05-26 13:16:48] [INFO] Scanned file: testrepo/a.txt
